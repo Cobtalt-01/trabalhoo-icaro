@@ -11,7 +11,7 @@ public class Batalha {
     private String resultado = "em_andamento";
     private String mensagem = "A batalha começou! Escolha sua primeira ação.";
 
-    public synchronized String agir(String acao)
+    public synchronized String agir(String acao) {
         // TODO 1: implementar as ações atacar (18 a 25), defender e curar (26 a 34).
         //          Cura inválida não gasta poção nem turno.
         // TODO 2: se o chefe estiver vivo, fazê-lo contra-atacar:
